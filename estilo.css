@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(158, 191, 158);
+    display: grid;
+    place-content: center;
+}
+
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('./BlackOpsOne-Regular.ttf');
+}
+
+span{
+    font-family: 'digital-clock-font';
+    font-size: 10vw;
+    color: rgb(255, 255, 255);
+    background-color: rgb(45, 44, 44);
+    border-radius: 20px;
+    width: 50vw;
+    text-align: center;
+    margin-top: 10vh;
+    
+}
+
+input{
+    font-size: x-large;
+    width: 30vw;
+}
+button{
+    font-size: x-large;
+
+}
+
+#config{
+    margin-top: 10vh;
+    display: grid;
+    place-content: center;
+}
